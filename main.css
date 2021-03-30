@@ -1,0 +1,13 @@
+p { 
+    color:blueviolet;
+    font-size: 24pt;
+    text-align: center;
+} 
+
+div {
+    background-color: black;
+}
+
+div>p {
+    color:white;
+}
