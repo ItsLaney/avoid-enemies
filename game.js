@@ -76,7 +76,8 @@ function preload() {
 
 function setup() {
 	frameRate(30);
-	createCanvas(1000, 600);
+	const cnv = createCanvas(1000, 600);
+	cnv.parent('sketch');
 	background(100);
 
 	playerSprite = createSprite(500, 300, 24, 32);
